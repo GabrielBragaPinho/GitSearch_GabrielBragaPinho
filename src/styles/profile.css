@@ -1,0 +1,141 @@
+body {
+    background-color: var(--color-grey-2);
+    display: flex;
+    
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    height:100vh;
+    padding: 5%;
+}
+
+/*-----begining of header-----*/
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3%;
+    width: 100vw;
+    height: 15%;
+    background-color: var(--color-grey-2);
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    padding: 0% 25%;
+}
+span {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--color-brand-2);
+}
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--color-grey-7);
+    margin-left: 20px;
+}
+.back__button {
+    width: 10%;
+    height: 38px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--color-grey-3);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 0px;
+    color: var(--color-grey-7);
+    position: fixed;
+    right: 25%;
+}
+.back__button:hover {
+    background-color: var(--color-brand-2);
+}
+/*-----end of header-----*/
+
+/*-----begining of cards-----*/
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 80px;
+}
+li {
+    list-style-type: none;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 43.9%;
+    height: 30vh;
+    border: 2px solid var(--color-grey-6);
+    border-radius: 8px;
+    padding: 2%;
+    margin: 30px 0px;
+}
+li:hover {
+    background-color: var(--color-grey-1);
+}
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color:var(--color-grey-7);
+    margin-top: 40px;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-grey-6);
+}
+
+.li__button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0px 8px;
+    width: 93px;
+    height: 28px;
+  
+    border-radius: 4px;
+    border: 1px solid var(--color-grey-6);
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-6);
+    margin-bottom: 20px;
+}
+.li__button:hover {
+    color: var(--color-grey-7);
+    background-color: var(--color-brand-2);
+    border: 1px solid var(--color-brand-2);
+}
+/*-----end of cards-----*/

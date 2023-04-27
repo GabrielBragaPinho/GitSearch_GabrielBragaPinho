@@ -1,0 +1,116 @@
+body {
+    background-color: var(--color-grey-2);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin: 0px;
+}
+.title__section {
+    height: 100vh;
+    width: 50%;
+    color: var(--color-grey-7);
+    background-color: var(--color-brand-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    width: 431px;
+}
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    width: 431px;
+    height: 60px;
+}
+.user__section {
+    height: 100vh;
+    width: 50%;
+    color: var(--color-grey-7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    width: 431px;
+}
+.user__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.above__input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    height: 21px;
+    margin: 0px;
+    margin-top: 25px;
+}
+input {
+    color: var(--color-grey-7);
+    background-color: var(--color-grey-1);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 4px;
+    height: 38px;
+    width: 316px;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+button {
+    width: 316px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-7);
+    border: none;
+}
+button:hover{
+    background-color: var(--color-brand-1);
+}
+
+.toast__container {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  
+    padding: 2rem;
+  
+    animation: toastIn 2s linear;
+  
+    z-index:0;
+    border-radius: 8px;
+  }
+  
+  .toast__container > p {
+    margin-top: 10%;
+    color: var(--color-grey-7);
+    
+    
+  }
+  
+  .toast__add {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .toast__remove {
+    animation: toastOut 2s linear;
+  }
