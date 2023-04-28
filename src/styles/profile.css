@@ -23,7 +23,7 @@ div {
     align-items: center;
     margin-bottom: 3%;
     width: 100vw;
-    height: 15%;
+    height: 20%;
     background-color: var(--color-grey-2);
     position:fixed;
     top: 0px;
@@ -65,6 +65,7 @@ h2 {
     color: var(--color-grey-7);
     position: fixed;
     right: 25%;
+    cursor: pointer;
 }
 .back__button:hover {
     background-color: var(--color-brand-2);
@@ -78,8 +79,8 @@ ul {
     flex-wrap: wrap;
     padding: 0px;
     gap: 30px;
-    justify-content: center;
-    margin-top: 80px;
+    justify-content: flex-start;
+    margin-top: 110px;
 }
 li {
     list-style-type: none;
@@ -93,7 +94,7 @@ li {
     border: 2px solid var(--color-grey-6);
     border-radius: 8px;
     padding: 2%;
-    margin: 30px 0px;
+    margin: 10px 0px;
 }
 li:hover {
     background-color: var(--color-grey-1);
@@ -132,6 +133,7 @@ p {
     background-color: var(--color-grey-2);
     color: var(--color-grey-6);
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .li__button:hover {
     color: var(--color-grey-7);
